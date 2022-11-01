@@ -4,7 +4,7 @@ const calendar = document.querySelector('.calendar')
 
 const calenderDays = (val, days) => {
   const para = document.querySelector('.para')
-  para.textContent = val
+  list.textContent = ''
   calendar.appendChild(para)
   for (let i = 1; i <= days; i++) {
     let listItem = document.createElement('li')

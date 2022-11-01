@@ -26,3 +26,47 @@ $black: #020402;
   color: $weird-blue;
 }
 
+.choice,
+.calendar {
+  padding: 1% 4%;
+}
+
+.sele {
+  margin-left: 1%;
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.list-cal {
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    list-style-type: none;
+    color: green;
+    width: 14%;
+    margin: 1%;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .choice {
+    padding: 2% 12%;
+  }
+
+  .sele {
+    font-size: 2rem;
+  }
+
+  .list-cal {
+
+    li {
+      font-size: 2rem;
+    }
+  }
+}
+
