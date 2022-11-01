@@ -1,6 +1,6 @@
 $cool-blue: #00a7e1;
 $cool-green: #44ffd1;
-$weird-blue: #6153CC;
+$weird-blue: #6153cc;
 $max-red: #d62828;
 $black: #020402;
 
@@ -9,7 +9,6 @@ $black: #020402;
   padding: 0;
   box-sizing: border-box;
 }
-
 
 .App-head {
   color: $cool-blue;
@@ -22,10 +21,6 @@ $black: #020402;
   text-align: center;
 }
 
-.sele {
-  color: $weird-blue;
-}
-
 .choice,
 .calendar {
   padding: 1% 4%;
@@ -35,6 +30,7 @@ $black: #020402;
   margin-left: 1%;
   font-weight: 200;
   font-size: 1rem;
+  color: $weird-blue;
 }
 
 .list-cal {
@@ -60,13 +56,12 @@ $black: #020402;
 
   .sele {
     font-size: 2rem;
+    color: $weird-blue;
   }
 
   .list-cal {
-
     li {
       font-size: 2rem;
     }
   }
 }
-

@@ -15,10 +15,6 @@
   text-align: center;
 }
 
-.sele {
-  color: #6153CC;
-}
-
 .choice,
 .calendar {
   padding: 1% 4%;
@@ -28,6 +24,7 @@
   margin-left: 1%;
   font-weight: 200;
   font-size: 1rem;
+  color: #6153cc;
 }
 
 .list-cal {
@@ -51,6 +48,7 @@
   }
   .sele {
     font-size: 2rem;
+    color: #6153cc;
   }
   .list-cal li {
     font-size: 2rem;
