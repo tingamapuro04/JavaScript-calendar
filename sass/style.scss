@@ -1,5 +1,28 @@
+$cool-blue: #00a7e1;
+$cool-green: #44ffd1;
+$weird-blue: #6153CC;
+$max-red: #d62828;
+$black: #020402;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+
+.App-head {
+  color: $cool-blue;
+  text-align: center;
+}
+
+.welcome {
+  color: $black;
+  padding: 3%;
+  text-align: center;
+}
+
+.sele {
+  color: $weird-blue;
+}
+

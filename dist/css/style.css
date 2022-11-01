@@ -2,4 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.App-head {
+  color: #00a7e1;
+  text-align: center;
+}
+
+.welcome {
+  color: #020402;
+  padding: 3%;
+  text-align: center;
+}
+
+.sele {
+  color: #6153CC;
 }/*# sourceMappingURL=style.css.map */
