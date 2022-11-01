@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App-head {
+  color: #00a7e1;
+  text-align: center;
+}
+
+.welcome {
+  color: #020402;
+  padding: 3%;
+  text-align: center;
+}
+
+.choice,
+.calendar {
+  padding: 1% 4%;
+}
+
+.sele {
+  margin-left: 1%;
+  font-weight: 200;
+  font-size: 1rem;
+  color: #6153cc;
+}
+
+.list-cal {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-cal li {
+  list-style-type: none;
+  color: green;
+  width: 14%;
+  margin: 1%;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media all and (min-width: 768px) {
+  .choice {
+    padding: 2% 12%;
+  }
+  .sele {
+    font-size: 2rem;
+    color: #6153cc;
+  }
+  .list-cal li {
+    font-size: 2rem;
+  }
+}/*# sourceMappingURL=style.css.map */
