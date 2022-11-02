@@ -19,3 +19,7 @@
 - Change the current working directory. Run cd JavaScript-calendar
 - Run code .
 - Once opened run bundle install to all the required resources
+
+## Contributions
+You can contribute to this project through the issue
+- Make your contribution here [contribute](https://github.com/tingamapuro04/JavaScript-calendar/issues/4)
